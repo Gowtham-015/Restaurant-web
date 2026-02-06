@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>TasteBite Restaurant</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header>
+    <nav class="navbar">
+      <h1 class="logo">TasteBite</h1>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="menu-btn" onclick="toggleMenu()">☰</button>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+ <section class="hero" id="home">
+  <div class="hero-content">
+    <h2>TasteBite</h2>
+    <h3>Gives You Delicious Food</h3>
+    <p>Experience the taste of happiness</p>
+    <a href="#menu" class="order-btn">Order Now</a>
+  </div>
+</section>
+
+
+  <!-- Menu Section -->
+  <section class="menu" id="menu">
+    <h2>Our Menu</h2>
+    <h3>🥣 Welcome Soups</h3>
+<div class="menu-grid">
+
+  <div class="card">
+    <img src="https://images.unsplash.com/photo-1547592166-23ac45744acd" alt="Tomato Soup">
+    <h3>Tomato Soup</h3>
+    <p>Classic creamy tomato soup</p>
+    <span>₹129</span>
+  </div>
+
+  <div class="card">
+    <img src="https://sl.bing.net/cZ03nUkNmEK" alt="Sweet Corn Soup">
+
+    <h3>Sweet Corn Soup</h3>
+    <p>Healthy corn with mild spices</p>
+    <span>₹139</span>
+  </div>
+
+  <div class="card">
+    <img src="https://sl.bing.net/kyINfWVkP5U" alt="Hot and Sour Soup">
+
+    <h3>Hot & Sour Soup</h3>
+    <p>Spicy and tangy delight</p>
+    <span>₹149</span>
+  </div>
+
+  <div class="card">
+    <img src="https://images.unsplash.com/photo-1551218808-94e220e084d2" alt="Mushroom Soup">
+    <h3>Cream of Mushroom</h3>
+    <p>Rich creamy mushroom soup</p>
+    <span>₹159</span>
+  </div>
+
+</div>
+
+
+<h3>🥗 Veg Starters</h3>
+<div class="menu-grid">
+
+  <div class="card">
+    <img src="https://images.unsplash.com/photo-1604908176997-125f25cc6f3d" alt="Paneer Tikka">
+    <h3>Paneer Tikka</h3>
+    <p>Grilled cottage cheese cubes</p>
+    <span>₹249</span>
+  </div>
+
+  <div class="card">
+    <img src="https://images.unsplash.com/photo-1628294895950-9805252327bc" alt="Gobi Manchurian">
+    <h3>Gobi Manchurian</h3>
+    <p>Crispy cauliflower in sauce</p>
+    <span>₹199</span>
+  </div>
+
+  <div class="card">
+    <img src="https://sl.bing.net/kkqNVrZcJno" alt="Crispy Corn">
+
+    <h3>Crispy Corn</h3>
+    <p>Deep-fried spicy corn</p>
+    <span>₹179</span>
+  </div>
+
+  <div class="card">
+    <img src="https://images.unsplash.com/photo-1617196034796-73dfa7b1fd56" alt="Veg Spring Roll">
+    <h3>Veg Spring Roll</h3>
+    <p>Stuffed crunchy rolls</p>
+    <span>₹189</span>
+  </div>
+
+  <div class="card">
+    <img src="https://images.unsplash.com/photo-1606755962773-d324e0a13086" alt="Stuffed Mushroom">
+    <h3>Stuffed Mushroom</h3>
+    <p>Cheese-filled mushrooms</p>
+    <span>₹229</span>
+  </div>
+
+  <div class="card">
+    <img src="https://images.unsplash.com/photo-1627308595229-7830a5c91f9f" alt="Veg Cutlet">
+    <h3>Veg Cutlet</h3>
+    <p>Golden fried vegetable patties</p>
+    <span>₹169</span>
+  </div>
+
+</div>
+
+
+
+<h3>🍗 Non-Veg Starters</h3>
+<div class="menu-grid">
+
+  <div class="card">
+    <img src="https://images.unsplash.com/photo-1631515243349-e0cb75fb8d3a" alt="Chicken Tikka">
+    <h3>Chicken Tikka</h3>
+    <p>Char-grilled spicy chicken</p>
+    <span>₹299</span>
+  </div>
+
+  <div class="card">
+    <img src="https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec" alt="Chicken 65">
+    <h3>Chicken 65</h3>
+    <p>South Indian fried chicken</p>
+    <span>₹279</span>
+  </div>
+
+  <div class="card">
+    <img src="https://images.unsplash.com/photo-1623653387945-2fd25214f8fc" alt="Pepper Chicken">
+    <h3>Pepper Chicken</h3>
+    <p>Spicy pepper-flavored chicken</p>
+    <span>₹289</span>
+  </div>
+
+  <div class="card">
+    <img src="https://sl.bing.net/jNNN8dhoQns" alt="Chicken Lollipop">
+
+    <h3>Chicken Lollipop</h3>
+    <p>Crispy chicken wings</p>
+    <span>₹269</span>
+  </div>
+
+  <div class="card">
+    <img src="https://images.unsplash.com/photo-1628294895950-9805252327bc" alt="Fish Fingers">
+    <h3>Fish Fingers</h3>
+    <p>Crumb-fried fish strips</p>
+    <span>₹299</span>
+  </div>
+
+  <div class="card">
+    <img src="https://sl.bing.net/e4xcboE59sy" alt="Chicken Pakoda">
+
+    <h3>Chicken Pakoda</h3>
+    <p>Spicy deep-fried chicken</p>
+    <span>₹259</span>
+  </div>
+
+</div>
+
+
+
+<h3>🍛 Veg Main Course</h3>
+<div class="menu-grid">
+
+  <div class="card">
+    <img src="https://images.unsplash.com/photo-1603894584373-5ac82b2ae398" alt="Paneer Butter Masala">
+    <h3>Paneer Butter Masala</h3>
+    <p>Rich tomato gravy</p>
+    <span>₹269</span>
+  </div>
+
+  <div class="card">
+    <img src="https://sl.bing.net/g9qwKga1p6G" alt="Veg Kadai">
+
+    <h3>Veg Kadai</h3>
+    <p>Mixed vegetables with spices</p>
+    <span>₹249</span>
+  </div>
+
+  <div class="card">
+    <img src="https://sl.bing.net/cjy5GDBF9ZA" alt="Dal Tadka">
+
+    <h3>Dal Tadka</h3>
+    <p>Yellow dal with ghee tadka</p>
+    <span>₹199</span>
+  </div>
+
+  <div class="card">
+    <img src="https://images.unsplash.com/photo-1589302168068-964664d93dc0" alt="Veg Biryani">
+    <h3>Veg Biryani</h3>
+    <p>Aromatic rice & vegetables</p>
+    <span>₹239</span>
+  </div>
+
+  <div class="card">
+    <img src="https://images.unsplash.com/photo-1603894584373-5ac82b2ae398" alt="Mixed Veg Curry">
+    <h3>Mixed Veg Curry</h3>
+    <p>Seasonal vegetables gravy</p>
+    <span>₹229</span>
+  </div>
+
+</div>
+
+
+
+
+<h3>🍖 Non-Veg Main Course</h3>
+<div class="menu-grid">
+
+  <div class="card">
+    <img src="https://sl.bing.net/cTT3xGzVAnA" alt="Butter Chicken">
+
+    <h3>Butter Chicken</h3>
+    <p>Creamy tomato chicken curry</p>
+    <span>₹329</span>
+  </div>
+
+  <div class="card">
+    <img src="https://images.unsplash.com/photo-1589302168068-964664d93dc0" alt="Chicken Biryani">
+    <h3>Chicken Biryani</h3>
+    <p>Classic dum-style biryani</p>
+    <span>₹299</span>
+  </div>
+
+  <div class="card">
+    <img src="https://images.unsplash.com/photo-1628294895950-9805252327bc" alt="Chicken Kadai">
+    <h3>Chicken Kadai</h3>
+    <p>Spicy kadai masala</p>
+    <span>₹309</span>
+  </div>
+
+  <div class="card">
+    <img src="https://sl.bing.net/cszrufvoPJI" alt="Mutton Biryani">
+
+    <h3>Mutton Biryani</h3>
+    <p>Slow-cooked Kashmiri curry</p>
+    <span>₹369</span>
+  </div>
+
+  <div class="card">
+    <img src="https://sl.bing.net/cWd2tRzvoRw" alt="Fish Curry">
+
+    <h3>Fish Curry</h3>
+    <p>Traditional coastal curry</p>
+    <span>₹319</span>
+  </div>
+
+</div>
+
+
+
+<h3>🥤 Soft Drinks & Beverages</h3>
+<div class="menu-grid">
+
+  <div class="card">
+    <img src="https://images.unsplash.com/photo-1551024601-bec78aea704b" alt="Cold Coffee">
+    <h3>Cold Coffee</h3>
+    <p>Chilled creamy coffee</p>
+    <span>₹129</span>
+  </div>
+
+  <div class="card">
+    <img src="https://images.unsplash.com/photo-1622483767028-3f66f32aef97" alt="Fresh Lime Soda">
+    <h3>Fresh Lime Soda</h3>
+    <p>Refreshing lime drink</p>
+    <span>₹99</span>
+  </div>
+
+  <div class="card">
+    <img src="https://images.unsplash.com/photo-1582550945154-66ea8fff25e1" alt="Fruit Juice">
+    <h3>Fruit Juice</h3>
+    <p>Seasonal fresh fruits</p>
+    <span>₹119</span>
+  </div>
+
+  <div class="card">
+    <img src="https://images.unsplash.com/photo-1581092334651-ddf26d9baf35" alt="Soft Drinks">
+    <h3>Soft Drinks</h3>
+    <p>Cola, Orange, Lemon</p>
+    <span>₹79</span>
+  </div>
+
+</div>
+
+  </section>
+
+  <!-- About Section 
+  <section class="about" id="about">
+    <h2>About Us</h2>
+    <p>
+      TasteBite gives you delicious food crafted with passion, 
+      freshness, and care. We believe that great food is more
+       than just a meal—it is an experience that brings people
+        together and creates lasting memories. At TasteBite, 
+        every dish is prepared using high-quality ingredients, 
+        authentic recipes, and a touch of creativity to ensure 
+        rich flavors in every bite.
+        <br>
+
+Our mission is simple: to help you experience 
+the true taste of happiness. From comforting 
+classics to modern favorites, our menu is designed 
+to satisfy every craving and suit every occasion. 
+Whether you are enjoying a quick lunch, a family dinner, 
+or a celebration with friends, TasteBite promises consistent 
+quality and exceptional taste.
+    </p>
+  </section>-->
+
+
+  <section class="about" id="about">
+  <h2>About Us</h2>
+
+  <div class="about-box">
+    <p>
+      TasteBite gives you delicious food crafted with passion, freshness, and care.
+      We believe that great food is more than just a meal—it is an experience that
+      brings people together and creates lasting memories. Our mission is to help
+      you experience the true taste of happiness through every dish we serve.
+    </p>
+  </div>
+</section>
+
+
+  <!-- Contact Section -->
+  <section class="contact" id="contact">
+    <h2>Contact Us</h2>
+    <form onsubmit="submitForm(event)">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2026 TasteBite Restaurant. All Rights Reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
